@@ -1,0 +1,152 @@
+
+
+body {
+  height: 100%;
+  width: 100%;
+ 
+}
+.producer{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 30px;
+}
+.Tile{
+    display: flex;
+}
+.tile{
+    border-radius: 5px 5px;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #c6c5c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tile img{
+    width: auto;
+    height: auto;
+  }
+.prduction-name{
+    margin-top: 20px;
+    
+    
+    
+}
+
+.prduction-name input{
+    background-color: rgb(186, 233, 233);
+    border: 0px;
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+}
+.add-production{
+    margin-top: 20%;
+    margin-left: -450px;
+    margin-bottom: 30px;
+}
+.production-details{
+    margin-left: 50px;
+}
+.production-type input{
+    background-color: rgb(186, 233, 233);
+    border: 0px;
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+
+
+
+ 
+
+.sider{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(21, 21, 206);
+}
+.sider-tile{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+} 
+.sider hr{
+    border:1px solid white;
+}
+.but1{
+    background-color: aliceblue;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30px;
+    text-align: center;
+}
+.but2{
+    background-color: rgb(11, 11, 161);
+    height: 30px;
+    text-align: center;
+    margin-top: 150%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 5%;
+}
+
+
+
+
+.but{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  margin-top: 210px;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  
+  
+}
+.but Button{
+    background-color: rgb(21, 21, 206);
+    color: #ffffff;
+}
+.production-type{
+    position: relative;
+    margin-top: 20px;
+}
+  
+  .radio-popup {
+    position: absolute;
+    width: 220px;
+    top: 90%;
+    left: 0;
+    background-color: rgb(186, 233, 233);
+    color: rgb(21, 21, 206);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  .radio-button-row input{
+    height: 15px;
+    margin-top: 1px;
+    
+  }
+  .radio-button-row label{
+    height: 1px;
+    
+    
+  }
+
