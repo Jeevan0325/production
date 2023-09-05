@@ -26,13 +26,13 @@ body {
   .tile img{
     width: auto;
     height: auto;
+    object-fit: cover;
   }
 .prduction-name{
-    margin-top: 20px;
-    
-    
+    margin-top: 20px; 
     
 }
+
 
 .prduction-name input{
     background-color: rgb(186, 233, 233);
@@ -73,7 +73,7 @@ body {
     color: white;
 } 
 .sider hr{
-    border:1px solid white;
+    
 }
 .but1{
     background-color: aliceblue;
@@ -82,6 +82,9 @@ body {
     margin-right: 10%;
     height: 30px;
     text-align: center;
+    display: flex;
+    padding-left: 27px;
+    padding-top:5px ;
 }
 .but2{
     background-color: rgb(11, 11, 161);
@@ -91,6 +94,9 @@ body {
     margin-bottom: 20%;
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    padding-left: 35px;
+    padding-top:5px ;
 }
 
 .pro{
@@ -125,16 +131,18 @@ body {
   
   .radio-popup {
     position: absolute;
-    width: 220px;
+    width: 250px;
     top: 90%;
     left: 0;
     background-color: rgb(186, 233, 233);
     color: rgb(21, 21, 206);
     border: 1px solid #ccc;
-    padding: 10px;
+    padding-left:-30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    
   }
   
 
@@ -142,11 +150,11 @@ body {
   .radio-button-row input{
     height: 15px;
     margin-top: 1px;
-    
   }
-  .radio-button-row label{
-    height: 1px;
+  
+ .radio-button-row label{
+    display: inline-flex
+ }
     
     
-  }
 
